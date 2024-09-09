@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: ubumono;
+    src: url(/fontes/Ubuntu_Mono/UbuntuMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: plusjakarta;
+    src: url(/fontes/Plus_Jakarta/PlusJakartaSans-Regular.ttf);
+}
+
+
+body{
+    background-color: #252E3B;
+    font-family: ubumono;
+    color: #ffffff;
+}
+
+
+nav{
+    background-color: none;
+    border: solid 2px #626974;
+    width: 100%;
+    height: 124px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    color: #ffffff;
+    display: flex;
+    margin-right: 112px;
+    align-items: center;
+    gap: 25px;
+}
+
+a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+    
+}
+
+
+
+
+li>a:hover{
+  
+    color: #a8afbb;
+    border-bottom: solid 10px #a8afbb;
+    
+}
+
+#logo{
+  
+    align-content: center;
+    margin-left: 112px;
+    transition: 0.2s;
+}
+
+#sec{
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 864px;
+    height: 270px;
+    font-size: 22px;
+
+}
+
+#vetor{
+    z-index: -1;
+    position: absolute;
+    right: 112px;
+    top: 183px;
+    width: 400px;
+    
+}
+
+.verde{
+
+    margin: auto;
+    margin-top: 100px;
+    width: 1216px;
+    height: 517px;
+    background-color: #22525C;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+ 
+}
+
+.tit>h1{
+   
+
+    font-size: 48px;
+    margin: auto;
+
+    font-family: plusjakarta;
+    
+}
+
+.tit{
+    font-family: ubumono;
+    margin-top: 98px;
+    text-align: center;
+    width: 100%;
+    height: 90px;
+}
+
+#texto{
+    text-align: center;
+    opacity: 40%;
+    font-family: plusjakarta;
+    margin: auto;
+    width: 585px;
+    height: 108px;
+    
+}
+
+#branco{
+    width: 366px;
+    height: 245px;
+    background-color: white;
+    border-radius: 14px; 
+    margin: auto;
+}
+
+#trio{
+
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+#skill{
+    background: none;
+    width: 1218px;
+    height: 400px;
+}
+
+ #lang{
+    margin-top: 40px;
+    display: flex;
+    gap: 60px;
+    margin: auto;
+}
+
+
+  .progress-bar{
+    height: 7px;
+    width: 88px;
+    background-color: #5a606a;
+    display: flex;
+    border-radius: 32px;
+  }
+  
+  .progress-bar::before{
+    content: "";
+    border-radius: 32px;
+
+  }
+
+  #html::before{
+    width: 90%;
+    background-color: #E44D26;
+  }
+
+  #fig::before{
+    width: 50%;
+    background-color: #A259FF;
+  }
+
+  #css::before{
+    width: 70%;
+    background-color: #29ABE2;
+  }
+  #js::before{
+    width: 40%;
+    background-color: #F7DF1E;
+;
+  }
+
+  #react::before{
+    width: 2%;
+    background-color: #00D8FF;
+  }
+
+  #tp::before{
+    width: 10%;
+    background-color: #3178C6;
+    ;
+  }
+  #node::before{
+    width: 10%;
+    background-color: #539E43;
+    ;
+  }
+  
+
+#proje{
+    background: none;
+    text-transform: uppercase;
+    height: 900px;
+}
+
+
+  .projeto{
+    height: 245px;
+    width: 366px;
+    background-color: #666D79;
+    border-radius: 14px;
+  }
+
+  #cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 59px;
+  }
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height:392px ;
+    background-color: #666D79;
+    height: 392px;
+    margin-top: 130px;
+}
+
+footer > #logo{
+    width: 40px;
+}
+
+
+.infod{
+    height: 60px;
+    width: 275px;
+
+}
+.infoe{
+    height: 60px;
+    width: 462px;
+
+}
+
+#about{
+  
+    width: 800px ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+   
+}
+
+#direita{
+    margin-top: 40px;
+
+}
+#c{
+    height: 300px;
+    margin-left: 110px;
+}
+
+#logofoot{
+        margin-top: 51px;
+        margin-left: 112px;
+        transition: 0.2s;
+}
+
+#imgfoot{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 392px ;
+
+}
+
+
+
+
+/* Mobile devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  /* Adjust navigation */
+
+ #logo{
+    margin-left: 100px;
+ }
+ 
+  ul {
+    margin-left: 1000px;
+     overflow: hidden;
+  }
+ 
+ #vetor{
+    width: 300px;
+ }
+
+  main{
+    margin-top: 130px;
+  }
+
+
+  #sec {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+  }
+
+  #sec > p{
+    width: 80%;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  .verde {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 0px;
+  }
+  .tit {
+    margin-top: 30px;
+    height: 40px;
+  }
+
+  .tit > h1{
+    font-size: 20px;
+  }
+  #texto {
+    margin-top: 0px;
+    width: 90%;
+    height: auto;
+  }
+  #branco {
+    width: 100%;
+    height: auto;
+  }
+  
+
+
+#skill{
+    width: 100%;
+}
+  #lang {
+  
+    display: grid;
+    grid-template-columns: repeat(4, 30px);
+    width: 87%;
+    
+  }
+  .progress-bar{
+    height: 5px;
+    width: 50px;
+    background-color: #5a606a;
+    display: flex;
+    border-radius: 32px;
+  }
+
+ .ling > img{
+    width: 60px; 
+ }
+  
+
+
+  #proje {
+    height: auto;
+  }
+  .projeto {
+    width: 270px;
+    height: 180px;
+    background-color: #666D79;
+    
+  }
+  #cards {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  footer {
+    height: auto;
+    padding: 20px;
+  }
+  #logofoot {
+
+    margin-top: 20px;
+    margin: auto;
+  }
+
+  
+  #imgfoot {
+    width: 100%;
+    height: auto;
+  }
+
+#direita{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 100%;
+    height: 350px;
+}
+
+
+
+.infod, .infoe{
+
+    width: 100%;
+}
+#about{
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#c{
+    height: 70px;
+    margin: auto;
+    opacity: 100%;
+}
+
+}
+
+/*
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+  nav {
+    height: 100px;
+  }
+  ul {
+    margin-right: 40px;
+  }
+  li>a {
+    font-size: 20px;
+  }
+  
+
+  #sec {
+    margin-top: 150px;
+    width: 80%;
+    height: auto;
+  }
+  .verde {
+    width: 80%;
+    height: auto;
+    margin-top: 75px;
+  }
+  .tit {
+    margin-top: 75px;
+  }
+  #texto {
+    width: 80%;
+    height: auto;
+  }
+  #branco {
+    width: 80%;
+    height: auto;
+  }
+  
+
+  #lang {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  #proje {
+    height: auto;
+  }
+  .projeto {
+    width: 45%;
+    height: auto;
+  }
+  #cards {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+
+  footer {
+    height: auto;
+    padding: 30px;
+  }
+  #logofoot {
+    margin-top: 30px;
+    margin-left: 30px;
+
+  }
+  #imgfoot {
+    width: 80%;
+    height: auto;
+    
+  }
+}
+
+*/
