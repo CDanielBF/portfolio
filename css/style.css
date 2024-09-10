@@ -9,6 +9,7 @@
     src: url(/fontes/Ubuntu_Mono/UbuntuMono-Regular.ttf);
 }
 
+
 @font-face {
     font-family: plusjakarta;
     src: url(/fontes/Plus_Jakarta/PlusJakartaSans-Regular.ttf);
@@ -109,7 +110,7 @@ li>a:hover{
 
 .tit{
     font-family: ubumono;
-    margin-top: 98px;
+    margin-top: 60px;
     text-align: center;
     width: 100%;
     height: 90px;
@@ -125,19 +126,21 @@ li>a:hover{
     
 }
 
-#branco{
+.branco{
     width: 366px;
     height: 245px;
     background-color: white;
     border-radius: 14px; 
     margin: auto;
+    padding: 20px;
+    color: black;
 }
 
 #trio{
 
     display: flex;
     width: 100%;
-    margin-top: 50px;
+
 }
 
 
@@ -292,8 +295,12 @@ footer > #logo{
 @media only screen and (max-width: 768px) {
   /* Adjust navigation */
 
+  nav{
+    border: none;
+  }
+
  #logo{
-    margin-left: 100px;
+    margin-left: 143px;
  }
  
   ul {
@@ -341,7 +348,7 @@ footer > #logo{
     width: 90%;
     height: auto;
   }
-  #branco {
+  .branco {
     width: 100%;
     height: auto;
   }
@@ -350,13 +357,14 @@ footer > #logo{
 
 #skill{
     width: 100%;
+
 }
   #lang {
   
     display: grid;
     grid-template-columns: repeat(4, 30px);
     width: 87%;
-    
+    margin-left: 70px;
   }
   .progress-bar{
     height: 5px;
@@ -445,3 +453,75 @@ footer > #logo{
 }
 
 }
+
+/*
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+  nav {
+    height: 100px;
+  }
+  ul {
+    margin-right: 40px;
+  }
+  li>a {
+    font-size: 20px;
+  }
+  
+
+  #sec {
+    margin-top: 150px;
+    width: 80%;
+    height: auto;
+  }
+  .verde {
+    width: 80%;
+    height: auto;
+    margin-top: 75px;
+  }
+  .tit {
+    margin-top: 75px;
+  }
+  #texto {
+    width: 80%;
+    height: auto;
+  }
+  #branco {
+    width: 80%;
+    height: auto;
+  }
+  
+
+  #lang {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  #proje {
+    height: auto;
+  }
+  .projeto {
+    width: 45%;
+    height: auto;
+  }
+  #cards {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+
+  footer {
+    height: auto;
+    padding: 30px;
+  }
+  #logofoot {
+    margin-top: 30px;
+    margin-left: 30px;
+
+  }
+  #imgfoot {
+    width: 80%;
+    height: auto;
+    
+  }
+}
+
+*/
