@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: ubumono;
-    src: url(./fontes/Ubuntu_Mono/UbuntuMono-Regular.ttf);
+    src: url(/fontes/Ubuntu_Mono/UbuntuMono-Regular.ttf);
 }
 
 @font-face {
     font-family: plusjakarta;
-    src: url(./fontes/Plus_Jakarta/PlusJakartaSans-Regular.ttf);
+    src: url(/fontes/Plus_Jakarta/PlusJakartaSans-Regular.ttf);
 }
 
 
@@ -405,6 +405,19 @@ footer > #logo{
     height: auto;
   }
 
+  .infod > h1 {
+    font-size: 20px;
+  }
+  .infod > p {
+    font-size: 22px;
+  }
+
+  a > h1 {
+    font-size: 20px;
+  }
+
+  
+
 #direita{
     display: flex;
     flex-wrap: wrap;
@@ -432,75 +445,3 @@ footer > #logo{
 }
 
 }
-
-/*
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-
-  nav {
-    height: 100px;
-  }
-  ul {
-    margin-right: 40px;
-  }
-  li>a {
-    font-size: 20px;
-  }
-  
-
-  #sec {
-    margin-top: 150px;
-    width: 80%;
-    height: auto;
-  }
-  .verde {
-    width: 80%;
-    height: auto;
-    margin-top: 75px;
-  }
-  .tit {
-    margin-top: 75px;
-  }
-  #texto {
-    width: 80%;
-    height: auto;
-  }
-  #branco {
-    width: 80%;
-    height: auto;
-  }
-  
-
-  #lang {
-    grid-template-columns: repeat(5, 1fr);
-  }
-
-  #proje {
-    height: auto;
-  }
-  .projeto {
-    width: 45%;
-    height: auto;
-  }
-  #cards {
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-  
-
-  footer {
-    height: auto;
-    padding: 30px;
-  }
-  #logofoot {
-    margin-top: 30px;
-    margin-left: 30px;
-
-  }
-  #imgfoot {
-    width: 80%;
-    height: auto;
-    
-  }
-}
-
-*/
