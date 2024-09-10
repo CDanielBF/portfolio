@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: ubumono;
-    src: url(/fontes/Ubuntu_Mono/UbuntuMono-Regular.ttf);
+    src: url(./fontes/Ubuntu_Mono/UbuntuMono-Regular.ttf);
 }
 
 @font-face {
     font-family: plusjakarta;
-    src: url(/fontes/Plus_Jakarta/PlusJakartaSans-Regular.ttf);
+    src: url(./fontes/Plus_Jakarta/PlusJakartaSans-Regular.ttf);
 }
 
 
